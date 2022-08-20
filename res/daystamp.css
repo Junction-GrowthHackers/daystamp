@@ -1,0 +1,126 @@
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	-ms-overflow-style: none;
+	background-color: #f3f3f3;
+}
+
+img {
+	display: block;
+}
+
+.daystamp-widget-container {
+	width: 220px;
+	min-height: 367px;
+}
+
+.attendance-container {
+	width: 220px;
+	min-height: 367px;
+	background: #fff;
+	border-radius: 20px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ECECEC;
+	padding: 12px 18px;
+}
+
+.title {
+	position: relative;
+	top: 1px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.close-btn img {
+	width: 16px;
+	height: 16px;
+}
+
+.contents-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 56px;
+}
+
+.contents-header button {
+	height: 100%;
+	padding: 18px;
+}
+
+.current-day {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.current-attendance {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+}
+
+.people {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.count {
+	color: #8B95A1;
+	font-size: 8px;
+	font-weight: 500;
+}
+
+.member-list {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	padding: 26px 18px;
+}
+
+.member-list-item {
+	display: flex;
+	align-items: center;
+}
+
+.user-image {
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.user-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.user-name {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.attendance-time {
+	color: #8B95A1;
+	font-size: 8px;
+}
+
+.attendance-time::before {
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI4IiB2aWV3Qm94PSIwIDAgOCA4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQuMzMzMzMgMy45MjAzM0M0LjMzMzMzIDMuOTMxMzMgNC4zMjggMy45NDEgNC4zMjcgMy45NTE2N0M0LjMyNTEyIDMuOTc0MjUgNC4zMjA1MyAzLjk5NjUyIDQuMzEzMzMgNC4wMThDNC4zMDEyNyA0LjA1Nzg2IDQuMjgxNTcgNC4wOTQ5OSA0LjI1NTMzIDQuMTI3MzNDNC4yNDA2NyA0LjE0NSA0LjIyNTMzIDQuMTYwNjcgNC4yMDczMyA0LjE3NTMzQzQuMTk5IDQuMTgyIDQuMTk0IDQuMTkxNjcgNC4xODUgNC4xOTc2N0wyLjYwOTY3IDUuMjQ3NjdDMi41MzYxMSA1LjI5NDg2IDIuNDQ2OTUgNS4zMTEyNyAyLjM2MTQxIDUuMjkzMzdDMi4yNzU4NyA1LjI3NTQ3IDIuMjAwNzggNS4yMjQ2OSAyLjE1MjMxIDUuMTUxOTZDMi4xMDM4NCA1LjA3OTI0IDIuMDg1ODcgNC45OTAzOSAyLjEwMjI3IDQuOTA0NTRDMi4xMTg2NyA0LjgxODcgMi4xNjgxMyA0Ljc0MjczIDIuMjQgNC42OTNMMy42NjY2NyAzLjc0MlYyLjE4NTMzQzMuNjY2NjcgMi4wOTY5MyAzLjcwMTc5IDIuMDEyMTQgMy43NjQzIDEuOTQ5NjNDMy44MjY4MSAxLjg4NzEyIDMuOTExNTkgMS44NTIgNCAxLjg1MkM0LjA4ODQxIDEuODUyIDQuMTczMTkgMS44ODcxMiA0LjIzNTcgMS45NDk2M0M0LjI5ODIxIDIuMDEyMTQgNC4zMzMzMyAyLjA5NjkzIDQuMzMzMzMgMi4xODUzM1YzLjkyMDMzVjMuOTIwMzNaTTQgMC41QzIuMDY3IDAuNSAwLjUgMi4wNjcgMC41IDRDMC41IDUuOTMzIDIuMDY3IDcuNSA0IDcuNUM1LjkzMyA3LjUgNy41IDUuOTMzIDcuNSA0QzcuNSAyLjA2NyA1LjkzMyAwLjUgNCAwLjVaIiBmaWxsPSIjOEI5NUExIi8+Cjwvc3ZnPgo=");
+	margin-right: 2px;
+}
+
+.user-attendance {
+	margin-left: auto;
+}
