@@ -6,9 +6,9 @@ import "zep-script";
 
 ScriptApp.onSidebarTouched.Add(function(p) {
   if (p.role === 3000 || p.role === 3001) {
-    p.tag.widtget = p.showWidget('daystamp.html', 'sidebar', 480, 400);
+    p.tag.widget = p.showWidget('daystamp.html', 'sidebar', 480, 400);
   } else {
-    p.tag.widtget = p.showWidget('daystamp-user.html', 'sidebar', 480, 400);
+    p.tag.widget = p.showWidget('daystamp-user.html', 'sidebar', 480, 400);
   }
 
   p.tag.widget.onMessage.Add(function (player, data) {
