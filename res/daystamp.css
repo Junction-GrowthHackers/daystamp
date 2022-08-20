@@ -4,7 +4,6 @@
 
 body {
 	-ms-overflow-style: none;
-	background-color: #f3f3f3;
 }
 
 img {
@@ -36,7 +35,20 @@ input[type='checkbox'] {
 }
 
 .new-schedule-container {
+	display: none;
 	position: relative;
+}
+
+.new-schedule-container.show {
+	display: block;
+}
+
+.check-schedule-container {
+	display: none;
+}
+
+.check-schedule-container.show {
+	display: block;
 }
 
 /* Day Stamp */
