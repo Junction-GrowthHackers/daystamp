@@ -183,13 +183,15 @@ input[type='checkbox'] {
 	font-size: 10px;
 }
 
-.day-checkboxes {
+.day-checkboxes,
+.selected-days {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 12px;
 }
 
-.day-checkbox {
+.day-checkbox,
+.day {
 	display: block;
 	width: 22px;
 	height: 22px;
@@ -332,4 +334,102 @@ input[type='checkbox'] {
 
 .submit-btn:hover {
 	background-color: #CCE0FF;
+}
+
+.submit-btn:active {
+	background-color: #B1D0FF;
+}
+
+/* Check Schedule */
+
+.check-schedule-container {
+	height: 367px;
+	background-color: #fff;
+	border-radius: 14px;
+}
+
+.schedule-list {
+	height: 306px;
+	margin-bottom: 18px;
+	overflow: scroll;
+}
+
+.schedule-item {
+	cursor: pointer;
+}
+
+.schedule-item:hover,
+.schedule-item.selected {
+	background-color: #F0F0F0;
+}
+
+.schedule-item-title {
+	display: flex;
+	justify-content: space-between;
+	width: 220px;
+	height: 42px;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 16px;
+	padding: 14px 16px;
+}
+
+.detail-schedule {
+	display: none;
+	padding: 0 16px;
+}
+
+.detail-schedule.show {
+	display: block;
+}
+
+.selected-days {
+	margin-top: 16px;
+}
+
+.day.selected {
+	color: #fff;
+	background-color: #3A8CF6;
+}
+
+.selected-repeat-option {
+	width: 62px;
+	height: 22px;
+	color: #3A8CF6;
+	font-size: 10px;
+	font-weight: 600;
+	text-align: center;
+	background-color: #F0F0F0;
+	border-radius: 4px;
+	padding: 4px 6px;
+	margin: 0 auto;
+}
+
+.selected-time-list-item {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	height: 36px;
+}
+
+.selected-time-list-item img {
+	width: 16px;
+	height: 16px;
+}
+
+.selected-time {
+	display: flex;
+	gap: 8px;
+	font-size: 10px;
+	font-weight: 600;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	padding: 0 18px;
+}
+
+.attend-btn {
+	margin-left: auto;
 }

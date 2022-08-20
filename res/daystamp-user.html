@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="daystamp.css" />
+  <title>DayStamp</title>
+</head>
+<body>
+<div class="daystamp-widget-container">
+  <div class="attendance-container">
+    <div class="header">
+      <h1 class="title">데이 스탬프</h1>
+      <button type="button" class="close-btn">
+        <img
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjIxMDAyIDhMMTIuOTc3MyA0LjIzMjY2QzEzLjA1MTcgNC4xNTgzOCAxMy4xMTA2IDQuMDcwMTggMTMuMTUwOSAzLjk3MzExQzEzLjE5MTEgMy44NzYwMyAxMy4yMTE5IDMuNzcxOTggMTMuMjExOSAzLjY2NjlDMTMuMjExOSAzLjU2MTgxIDEzLjE5MTMgMy40NTc3NSAxMy4xNTExIDMuMzYwNjZDMTMuMTEwOSAzLjI2MzU2IDEzLjA1MiAzLjE3NTMzIDEyLjk3NzcgMy4xMDFDMTIuOTAzNCAzLjAyNjY3IDEyLjgxNTIgMi45Njc3IDEyLjcxODEgMi45Mjc0NkMxMi42MjExIDIuODg3MjEgMTIuNTE3IDIuODY2NDkgMTIuNDExOSAyLjg2NjQ2QzEyLjMwNjggMi44NjY0MiAxMi4yMDI4IDIuODg3MDkgMTIuMTA1NyAyLjkyNzI4QzEyLjAwODYgMi45Njc0NiAxMS45MjAzIDMuMDI2MzggMTEuODQ2IDMuMTAwNjZMOC4wNzg2OCA2Ljg2ODY2TDQuMzEwNjggMy4xMDA2NkM0LjE1ODkyIDIuOTU4OTIgMy45NTgwMiAyLjg4MTY3IDMuNzUwMzkgMi44ODUyNUMzLjU0Mjc1IDIuODg4ODIgMy4zNDQ2MyAyLjk3MjkyIDMuMTk3ODMgMy4xMTk4QzMuMDUxMDQgMy4yNjY2OSAyLjk2NzA1IDMuNDY0ODYgMi45NjM2IDMuNjcyNUMyLjk2MDE1IDMuODgwMTMgMy4wMzc1MSA0LjA4MDk5IDMuMTc5MzUgNC4yMzI2Nkw2Ljk0NzM1IDhMMy4xNzkzNSAxMS43NjczQzMuMDY3OTkgMTEuODc5NSAyLjk5MjI3IDEyLjAyMiAyLjk2MTcxIDEyLjE3NzFDMi45MzExNiAxMi4zMzIxIDIuOTQ3MTMgMTIuNDkyNyAzLjAwNzYzIDEyLjYzODdDMy4wNjgxMiAxMi43ODQ3IDMuMTcwNDMgMTIuOTA5NiAzLjMwMTcgMTIuOTk3NkMzLjQzMjk2IDEzLjA4NTYgMy41ODczMiAxMy4xMzI4IDMuNzQ1MzUgMTMuMTMzM0MzLjk1MDAyIDEzLjEzMzMgNC4xNTQ2OCAxMy4wNTUzIDQuMzEwNjggMTIuODk5M0w4LjA3ODY4IDkuMTMxMzNMMTEuODQ2IDEyLjg5OTNDMTEuOTIwMiAxMi45NzM4IDEyLjAwODQgMTMuMDMyOCAxMi4xMDU0IDEzLjA3MzFDMTIuMjAyNSAxMy4xMTM0IDEyLjMwNjYgMTMuMTM0MiAxMi40MTE3IDEzLjEzNDJDMTIuNTE2OCAxMy4xMzQyIDEyLjYyMDkgMTMuMTEzNCAxMi43MTc5IDEzLjA3MzFDMTIuODE1IDEzLjAzMjggMTIuOTAzMiAxMi45NzM4IDEyLjk3NzMgMTIuODk5M0MxMy4wNTE3IDEyLjgyNSAxMy4xMTA3IDEyLjczNjggMTMuMTUxIDEyLjYzOTdDMTMuMTkxMyAxMi41NDI2IDEzLjIxMiAxMi40Mzg1IDEzLjIxMiAxMi4zMzMzQzEzLjIxMiAxMi4yMjgyIDEzLjE5MTMgMTIuMTI0MSAxMy4xNTEgMTIuMDI3QzEzLjExMDcgMTEuOTI5OSAxMy4wNTE3IDExLjg0MTYgMTIuOTc3MyAxMS43NjczTDkuMjEwMDIgOFoiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=" />
+      </button>
+    </div>
+    <div class="contents">
+      <div class="contents-header">
+        <button type="button" class="go-to-prev-day">
+          <img
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMC4yNSAxMy40QzEwLjEzMTggMTMuNDAwMSAxMC4wMTQ4IDEzLjM3NjggOS45MDU2NSAxMy4zMzE1QzkuNzk2NSAxMy4yODYyIDkuNjk3MzggMTMuMjE5NyA5LjYxMzk5IDEzLjEzNkw1LjExMzk5IDguNjM2QzUuMDMwMzggOC41NTI0MyA0Ljk2NDA3IDguNDUzMiA0LjkxODgyIDguMzQzOTlDNC44NzM1NyA4LjIzNDc4IDQuODUwMjggOC4xMTc3MiA0Ljg1MDI4IDcuOTk5NUM0Ljg1MDI4IDcuODgxMjkgNC44NzM1NyA3Ljc2NDIzIDQuOTE4ODIgNy42NTUwMkM0Ljk2NDA3IDcuNTQ1ODEgNS4wMzAzOCA3LjQ0NjU4IDUuMTEzOTkgNy4zNjNMOS42MTM5OSAyLjg2M0M5LjY5NjkxIDIuNzc2NTIgOS43OTYyNiAyLjcwNzQ3IDkuOTA2MjIgMi42NTk4OUMxMC4wMTYyIDIuNjEyMzEgMTAuMTM0NSAyLjU4NzE2IDEwLjI1NDMgMi41ODU5MkMxMC4zNzQxIDIuNTg0NjkgMTAuNDkzIDIuNjA3MzkgMTAuNjAzOSAyLjY1MjY5QzEwLjcxNDggMi42OTc5OSAxMC44MTU2IDIuNzY0OTggMTAuOTAwMyAyLjg0OTczQzEwLjk4NSAyLjkzNDQ4IDExLjA1MTkgMy4wMzUyOSAxMS4wOTcxIDMuMTQ2MjVDMTEuMTQyMyAzLjI1NzIgMTEuMTY0OSAzLjM3NjA3IDExLjE2MzYgMy40OTU4N0MxMS4xNjIyIDMuNjE1NjggMTEuMTM3IDMuNzM0MDEgMTEuMDg5MyAzLjg0MzkzQzExLjA0MTcgMy45NTM4NSAxMC45NzI1IDQuMDUzMTUgMTAuODg2IDQuMTM2TDcuMDIyOTkgOEwxMC44ODYgMTEuODYzQzExLjAxMiAxMS45ODg4IDExLjA5NzkgMTIuMTQ5MiAxMS4xMzI4IDEyLjMyMzhDMTEuMTY3NiAxMi40OTg1IDExLjE0OTkgMTIuNjc5NiAxMS4wODE4IDEyLjg0NDFDMTEuMDEzNyAxMy4wMDg3IDEwLjg5ODMgMTMuMTQ5MyAxMC43NTAzIDEzLjI0ODNDMTAuNjAyMiAxMy4zNDcyIDEwLjQyODEgMTMuNCAxMC4yNSAxMy40WiIgZmlsbD0iYmxhY2siLz4KPC9zdmc+Cg==" />
+        </button>
+        <h2 class="current-day">8월 20일</h2>
+        <button type="button" class="go-to-next-day">
+          <img
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01Ljc0OTk5IDEzLjRDNS41MTk5OSAxMy40IDUuMjg5OTkgMTMuMzEgNS4xMDk5OSAxMy4xNEM0Ljk0MjA2IDEyLjk3MTMgNC44NDc3OCAxMi43NDMgNC44NDc3OCAxMi41MDVDNC44NDc3OCAxMi4yNjcgNC45NDIwNiAxMi4wMzg3IDUuMTA5OTkgMTEuODdMOC45Nzk5OSA4TDUuMTA5OTkgNC4xNEM0Ljk0MjA2IDMuOTcxMzMgNC44NDc3OCAzLjc0MzAxIDQuODQ3NzggMy41MDVDNC44NDc3OCAzLjI2Njk5IDQuOTQyMDYgMy4wMzg2NyA1LjEwOTk5IDIuODdDNS4yNzg2NiAyLjcwMjA3IDUuNTA2OTggMi42MDc3OSA1Ljc0NDk5IDIuNjA3NzlDNS45ODMgMi42MDc3OSA2LjIxMTMyIDIuNzAyMDcgNi4zNzk5OSAyLjg3TDEwLjg4IDcuMzdDMTEuMDQ3OSA3LjUzODY3IDExLjE0MjIgNy43NjY5OSAxMS4xNDIyIDguMDA1QzExLjE0MjIgOC4yNDMwMSAxMS4wNDc5IDguNDcxMzMgMTAuODggOC42NEw2LjM3OTk5IDEzLjE0QzYuMjA5OTkgMTMuMzEgNS45Nzk5OSAxMy40IDUuNzQ5OTkgMTMuNCIgZmlsbD0iYmxhY2siLz4KPC9zdmc+Cg==" />
+        </button>
+      </div>
+      <div class="user">
+        <img class="user-image"
+             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzMiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMyAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wLjI1IDE2QzAuMjUgNy4xNjM0NCA3LjQxMzQ0IDAgMTYuMjUgMFYwQzI1LjA4NjYgMCAzMi4yNSA3LjE2MzQ0IDMyLjI1IDE2VjE2QzMyLjI1IDI0LjgzNjYgMjUuMDg2NiAzMiAxNi4yNSAzMlYzMkM3LjQxMzQ0IDMyIDAuMjUgMjQuODM2NiAwLjI1IDE2VjE2WiIgZmlsbD0iIzdFODY5RSIgZmlsbC1vcGFjaXR5PSIwLjI1Ii8+CiAgICA8Y2lyY2xlIGN4PSIxNi4yNSIgY3k9IjEyLjQ0NDUiIHI9IjcuMTExMTEiIGZpbGw9IndoaXRlIi8+CiAgICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTI3LjM4NTEgMjcuMjMxOUMyNy40NDE5IDI3LjMyOTEgMjcuNDI0MiAyNy40NTIxIDI3LjM0MzEgMjcuNTMwMkMyNC40NjY3IDMwLjI5ODEgMjAuNTU3MSAzMiAxNi4yNSAzMkMxMS45NDMgMzIgOC4wMzM0NSAzMC4yOTgyIDUuMTU3MTIgMjcuNTMwM0M1LjA3NjAzIDI3LjQ1MjMgNS4wNTgzNCAyNy4zMjkyIDUuMTE1MDkgMjcuMjMyQzcuMTU3NDUgMjMuNzM0NiAxMS4zNzY2IDIxLjMzMzMgMTYuMjUwMSAyMS4zMzMzQzIxLjEyMzYgMjEuMzMzMyAyNS4zNDI3IDIzLjczNDUgMjcuMzg1MSAyNy4yMzE5WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==" />
+        <div class="user-info">
+          <h3 class="user-name">닉네임</h3>
+          <span class="attendance-time">19:00</span>
+        </div>
+        <button type="button" class="attend-btn">
+          <img
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiByeD0iMyIgZmlsbD0iI0VDRUNFQyIvPgo8cGF0aCBkPSJNNy4xODMzMyAxMS4wMzMzQzcuMDA4MzMgMTEuMDMzMyA2LjgzMzMzIDEwLjk3NSA2LjcxNjY2IDEwLjhMNC4wMzMzMyA4LjExNjY1QzMuNzQxNjYgNy44MjQ5OSAzLjc0MTY2IDcuNDE2NjUgNC4wMzMzMyA3LjEyNDk5QzQuMzI0OTkgNi44MzMzMiA0LjczMzMzIDYuODMzMzIgNS4wMjQ5OSA3LjEyNDk5TDcuMTgzMzMgOS4yODMzMkwxMS4wMzMzIDUuNDMzMzJDMTEuMzI1IDUuMTQxNjUgMTEuNzMzMyA1LjE0MTY1IDEyLjAyNSA1LjQzMzMyQzEyLjMxNjcgNS43MjQ5OSAxMi4zMTY3IDYuMTMzMzIgMTIuMDI1IDYuNDI0OTlMNy43MDgzMyAxMC43NDE3QzcuNTMzMzMgMTAuOTc1IDcuMzU4MzMgMTEuMDMzMyA3LjE4MzMzIDExLjAzMzNaIiBmaWxsPSIjOEI5NUExIi8+Cjwvc3ZnPgo="
+              alt="not attend" />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
